@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Replace the following object with your actual user data
             const validUsers = {
-                'admin': 'password123',
+                '3rmY@kLS#H0e6': 'iNH84K5MUA&%P',
             };
 
             if (validUsers[username] && validUsers[username] === password) {
