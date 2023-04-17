@@ -1,0 +1,378 @@
+.button{
+  height: -1px;
+  width: 100px;
+  margin-top: -1412px;
+  margin-left: 1829px;
+  position: fixed;
+  z-index: 9999;
+
+
+}
+
+.login-status {
+  position: fixed;
+  color: white;
+  top: 10px;
+  right: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  z-index: 9999;
+}
+
+body{
+  background-color: #1a1c1e;
+}
+
+.guide1_name{
+  font-size: 25px;
+  color: white;
+  margin-left: 203px;
+  margin-top: 103px;
+}
+
+.guide1{
+  position: absolute;
+  top: 382px;
+  left: 131px;
+  width: 445px;
+  height: 243px;
+
+}
+
+.guide1 {
+  transition: transform 0.2s;
+}
+
+.guide1:hover {
+  transform: scale(1.3);
+}
+
+.guide2_name{
+  font-size: 25px;
+  color: white;
+  margin-left: 862px;
+  margin-top: -53px;
+}
+
+.guide2{
+  position: absolute;
+  top: 382px;
+  left: 749px;
+  width: 445px;
+  height: 243px;
+
+}
+
+.guide2 {
+  transition: transform 0.2s;
+}
+
+.guide2:hover {
+  transform: scale(1.3);
+}
+
+.guide3_name{
+  font-size: 25px;
+  color: white;
+  margin-left: 1460px;
+  margin-top: -53px;
+}
+
+.guide3{
+  position: absolute;
+  top: 382px;
+  left: 1357px;
+  width: 445px;
+  height: 243px;
+
+}
+
+.guide3 {
+  transition: transform 0.2s;
+}
+
+.guide3:hover {
+  transform: scale(1.3);
+}
+
+.guide4_name{
+  font-size: 25px;
+  color: white;
+  margin-left: 225px;
+  margin-top: 320px;
+}
+
+.guide4{
+
+  position: absolute;
+  top: 731px;
+  left: 131px;
+  width: 445px;
+  height: 243px;
+}
+
+.guide4 {
+  transition: transform 0.2s;
+}
+
+.guide4:hover {
+  transform: scale(1.3);
+}
+
+.guide5_name{
+  font-size: 25px;
+  color: white;
+  margin-left: 831px;
+  margin-top: -53px;
+}
+
+.guide5{
+
+  position: absolute;
+  top: 731px;
+  left: 749px;
+  width: 445px;
+  height: 243px;
+}
+
+.guide5 {
+  transition: transform 0.2s;
+}
+
+.guide5:hover {
+  transform: scale(1.3);
+}
+
+.guide6_name{
+  font-size: 25px;
+  color: white;
+  margin-left: 1477px;
+  margin-top: -53px;
+}
+
+.guide6{
+
+  position: absolute;
+  top: 731px;
+  left: 1359px;
+  width: 445px;
+  height: 243px;
+}
+
+.guide6 {
+  transition: transform 0.2s;
+}
+
+.guide6:hover {
+  transform: scale(1.3);
+}
+
+.guide7_name{
+  font-size: 25px;
+  color: white;
+  margin-left: 256px;
+  margin-top: 317px;
+}
+
+.guide7{
+
+  position: absolute;
+  top: 1074px;
+  left: 131px;
+  width: 445px;
+  height: 243px;
+}
+
+.guide7 {
+  transition: transform 0.2s;
+}
+
+.guide7:hover {
+  transform: scale(1.3);
+}
+
+.guide8_name{
+  font-size: 25px;
+  color: white;
+  margin-left: 883px;
+  margin-top: -53px;
+}
+
+.guide8{
+
+  position: absolute;
+  top: 1074px;
+  left: 749px;
+  width: 445px;
+  height: 243px;
+}
+
+.guide8 {
+  transition: transform 0.2s;
+}
+
+.guide8:hover {
+  transform: scale(1.3);
+}
+
+
+
+
+
+.navigation{
+  width: 979px; /* Add a fixed width here */
+  margin: 9px auto 0; /* Center the navigation bar horizontally */
+  margin-top: 9px;
+  font-size: 20px;
+  background-color: #d2000f;
+  font-style: italic;
+  margin-left: 0px;
+  margin-right: 910px;
+  justify-content: flex-start;
+
+
+}
+
+.headline{
+  margin-top: 140px;
+}
+
+.grlogo{
+  position: absolute;
+  top: 28px;
+  left: 1504px;
+  width: 375px;
+  height: 91px;
+}
+
+.number{
+  font-size: 18px;
+  color: white;
+  margin-left: 7px;
+}
+
+.phone{
+  font-size: 18px;
+  color: white;
+  margin-left: 42px;
+}
+
+.ctgp{
+  position: absolute;
+  top: 36px;
+  left: 46px;
+  width: 984px;
+  height: 87px;
+}
+
+.fb{
+  position: absolute;
+  top: 152px;
+  left: 1004px;
+  width: 65px;
+  height: 65px;
+}
+
+.insta{
+  position: absolute;
+  top: 152px;
+  left: 1079px;
+  width: 70px;
+  height: 70px;
+}
+
+.link{
+  position: absolute;
+  top: 158px;
+  left: 1171px;
+  width: 56px;
+  height: 56px;
+}
+
+.yt{
+  position: absolute;
+  top: 161px;
+  left: 1257px;
+  width: 50px;
+  height: 50px;
+}
+
+.tg{
+  position: absolute;
+  top: 161px;
+  left: 1337px;
+  width: 50px;
+  height: 50px;
+}
+
+.gr_web{
+  position: absolute;
+  top: 161px;
+  left: 1425px;
+  width: 50px;
+  height: 50px;
+}
+
+.mteam{
+  position: absolute;
+  top: 150px;
+  left: 1617px;
+  width: 259px;
+  height: 55px;
+}
+
+nav ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-start;
+
+}
+
+nav li {
+	margin-right: 49px;
+	padding: 0px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+	border: 3px solid transparent;
+	transition: border-color 0.3s ease-in-out;
+}
+
+nav li:hover a {
+	border-color: white;
+}
+
+nav li:last-child {
+	margin-right: 1;
+}
+
+.navigation2{
+  width: 880px; /* Add a fixed width here */
+  margin-top: 354px;
+  font-size: 20px;
+  background-color: #d2000f;
+  font-style: italic;
+  margin-left: 525px;
+  margin-right: 519px;
+  justify-content: flex-start;
+}
+
+.copyright{
+  margin-left: -507px;
+  font-size: 20px;
+  color: white;
+  margin-top: 30px;
+  width: 267px;
+  height: 1px;
+}
+
+.nav2{
+height: 47px;
+list-style-type: none;
+justify-content: flex-start;
+display: flex;
+}

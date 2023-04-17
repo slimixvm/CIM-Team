@@ -1,0 +1,17 @@
+body {
+    background-color: #1a1c1e;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.login-container {
+    width: 228px;
+    margin: 100px auto;
+    margin-top: 391px;
+    text-align: center;
+}
+
+.blur {
+    filter: blur(5px);
+    pointer-events: none;
+}

@@ -1,0 +1,229 @@
+.button{
+  height: -1px;
+  width: 100px;
+  margin-top: -712px;
+  margin-left: 1829px;
+  position: fixed;
+  z-index: 9999;
+
+
+}
+
+.login-status {
+  position: fixed;
+  color: white;
+  top: 10px;
+  right: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  z-index: 9999;
+}
+
+body{
+background-color: #1a1c1e;
+}
+
+.headline{
+  margin-top: 140px;
+}
+
+.ctgp{
+  position: absolute;
+  top: 36px;
+  left: 46px;
+  width: 984px;
+  height: 87px;
+}
+
+.grlogo{
+  position: absolute;
+  top: 28px;
+  left: 1504px;
+  width: 375px;
+  height: 91px;
+
+
+}
+.fb{
+  position: absolute;
+  top: 152px;
+  left: 1004px;
+  width: 65px;
+  height: 65px;
+}
+
+.insta{
+  position: absolute;
+  top: 152px;
+  left: 1079px;
+  width: 70px;
+  height: 70px;
+}
+
+.link{
+  position: absolute;
+  top: 158px;
+  left: 1171px;
+  width: 56px;
+  height: 56px;
+}
+
+.yt{
+  position: absolute;
+  top: 161px;
+  left: 1257px;
+  width: 50px;
+  height: 50px;
+}
+
+.tg{
+  position: absolute;
+  top: 161px;
+  left: 1337px;
+  width: 50px;
+  height: 50px;
+}
+
+.gr_web{
+  position: absolute;
+  top: 161px;
+  left: 1425px;
+  width: 50px;
+  height: 50px;
+}
+
+.mteam{
+  position: absolute;
+  top: 150px;
+  left: 1617px;
+  width: 259px;
+  height: 55px;
+}
+
+.number{
+  font-size: 18px;
+  color: white;
+  margin-left: 7px;
+}
+
+.phone{
+  font-size: 18px;
+  color: white;
+  margin-left: 42px;
+}
+
+.navigation{
+  width: 979px; /* Add a fixed width here */
+  margin: 9px auto 0; /* Center the navigation bar horizontally */
+  margin-top: 9px;
+  font-size: 20px;
+  background-color: #d2000f;
+  font-style: italic;
+  margin-left: 0px;
+  margin-right: 910px;
+  justify-content: flex-start;
+
+
+}
+
+.navigation2{
+  margin-top: 1786px;
+  font-size: 20px;
+  background-color: #d2000f;
+  font-style: italic;
+  margin-left: 390px;
+  margin-right: 100px;
+  justify-content: flex-start;
+}
+
+.nav2{
+height: 45px;
+list-style-type: none;
+justify-content: flex-start;
+display: flex;
+}
+
+nav ul {
+  list-style-type: none;
+  justify-content: flex-start;
+  display: flex;
+
+
+
+
+}
+
+nav li {
+	margin-right: 49px;
+	padding: 0px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+	border: 3px solid transparent;
+	transition: border-color 0.3s ease-in-out;
+}
+
+nav li:hover a {
+	border-color: white;
+}
+
+nav li:last-child {
+	margin-right: 1;
+}
+
+.W{
+font-size: 35px;
+margin-left: 20px;
+}
+
+
+.WTOGWS{
+  font-size: 25px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  box-sizing: content-box;
+  margin-left: 50px;
+  width: 1400px;
+  height: 500px;
+
+}
+
+.LOWTSW{
+  margin-left: -442px;
+  font-size: 35px;
+  margin-top: 1197px;
+}
+
+
+.CGO{
+  list-style-type: decimal;
+  margin-left: -378px;
+}
+
+.team{
+  width: 1095px;
+  height: 25px;
+  margin-left: 429px;
+  margin-top: 50px;
+  font-size: 40px;
+}
+.teampng{
+  position: absolute;
+  top: 837px;
+  left: 63px;
+  width: 1663px;
+  height: 1156px;
+}
+
+.copyright{
+  margin-left: -535px;
+  font-size: 20px;
+  color: white;
+  margin-top: 30px;
+  width: 267px;
+  height: 1px;
+}
