@@ -1,1 +1,72 @@
-const _0x16aaa7=_0x12da;(function(_0x328e91,_0x1f23de){const _0x4c802c=_0x12da,_0x268f63=_0x328e91();while(!![]){try{const _0x1fc959=parseInt(_0x4c802c(0x153))/0x1*(parseInt(_0x4c802c(0x16d))/0x2)+parseInt(_0x4c802c(0x165))/0x3+-parseInt(_0x4c802c(0x156))/0x4+-parseInt(_0x4c802c(0x15f))/0x5+-parseInt(_0x4c802c(0x163))/0x6+-parseInt(_0x4c802c(0x168))/0x7*(parseInt(_0x4c802c(0x15e))/0x8)+parseInt(_0x4c802c(0x16c))/0x9;if(_0x1fc959===_0x1f23de)break;else _0x268f63['push'](_0x268f63['shift']());}catch(_0x905f68){_0x268f63['push'](_0x268f63['shift']());}}}(_0x1229,0xb796f),document[_0x16aaa7(0x15b)]('DOMContentLoaded',()=>{const _0x25c605=_0x16aaa7,_0x5f10cd=document[_0x25c605(0x162)](_0x25c605(0x169)),_0x158f82=document[_0x25c605(0x162)](_0x25c605(0x16a));_0x5f10cd&&(_0x5f10cd[_0x25c605(0x15b)](_0x25c605(0x152),_0x55b874=>{const _0xd31263=_0x25c605;_0x55b874[_0xd31263(0x160)]();const _0x4c253e=document[_0xd31263(0x162)](_0xd31263(0x159))['value'],_0x11cc78=document[_0xd31263(0x162)](_0xd31263(0x164))[_0xd31263(0x155)],_0x52329c={'3rmY@kLS#H0e6':_0xd31263(0x16b)};if(_0x52329c[_0x4c253e]&&_0x52329c[_0x4c253e]===_0x11cc78){localStorage['setItem'](_0xd31263(0x16e),_0xd31263(0x161));const _0x4517d5=localStorage['getItem'](_0xd31263(0x157))||'index.html';localStorage['removeItem'](_0xd31263(0x157)),window['location'][_0xd31263(0x170)]=_0x4517d5;}else alert('Invalid\x20username\x20or\x20password.');}),redirectIfLoggedIn()),_0x158f82&&_0x158f82[_0x25c605(0x15b)]('click',()=>{logout();}),protectPage();}));function _0x12da(_0x469595,_0x1d0dbb){const _0x12293c=_0x1229();return _0x12da=function(_0x12da23,_0x1d43ff){_0x12da23=_0x12da23-0x151;let _0x3ab5b1=_0x12293c[_0x12da23];return _0x3ab5b1;},_0x12da(_0x469595,_0x1d0dbb);}function protectPage(){const _0x3235c0=_0x16aaa7;localStorage[_0x3235c0(0x151)](_0x3235c0(0x16e))!=='true'?(localStorage[_0x3235c0(0x166)](_0x3235c0(0x157),window[_0x3235c0(0x154)][_0x3235c0(0x170)]),window[_0x3235c0(0x154)]['href']='login.html'):document[_0x3235c0(0x162)](_0x3235c0(0x167))[_0x3235c0(0x158)][_0x3235c0(0x15c)](_0x3235c0(0x171)),updateLoginStatus();}function redirectIfLoggedIn(){const _0x1aef56=_0x16aaa7;if(localStorage[_0x1aef56(0x151)](_0x1aef56(0x16e))===_0x1aef56(0x161)){const _0x246770=localStorage[_0x1aef56(0x151)]('returnUrl')||_0x1aef56(0x15a);localStorage[_0x1aef56(0x15d)](_0x1aef56(0x157)),updateLoginStatus(),window[_0x1aef56(0x154)][_0x1aef56(0x170)]=_0x246770;}}function updateLoginStatus(){const _0x388255=_0x16aaa7,_0x18d6e7=document['getElementById']('login-status');_0x18d6e7&&localStorage[_0x388255(0x151)](_0x388255(0x16e))===_0x388255(0x161)?_0x18d6e7[_0x388255(0x16f)]='Logged\x20in\x20as\x20Cim\x20Representative':_0x18d6e7[_0x388255(0x16f)]='';}function _0x1229(){const _0x31f99e=['username','index.html','addEventListener','remove','removeItem','120nJPJBp','694305OAUumI','preventDefault','true','getElementById','591282AinSxS','password','2287371lQEXsm','setItem','main-content','196567oWWhnp','login-form','logout','iNH84K5MUA&%P','4805559ybVdqC','34mCmdpb','loggedIn','innerHTML','href','blur','getItem','submit','70711ngLifU','location','value','4351556BAlpOt','returnUrl','classList'];_0x1229=function(){return _0x31f99e;};return _0x1229();}function logout(){const _0xf51d70=_0x16aaa7;localStorage[_0xf51d70(0x15d)](_0xf51d70(0x16e)),updateLoginStatus(),protectPage();}
+document.addEventListener('DOMContentLoaded', () => {
+    const loginForm = document.getElementById('login-form');
+    const logoutButton = document.getElementById('logout');
+
+    if (loginForm) {
+        loginForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            // Replace the following object with your actual user data
+            const validUsers = {
+                '3rmY@kLS#H0e6': '3rmY@kLS#H0e6',
+            };
+
+            if (validUsers[username] && validUsers[username] === password) {
+                localStorage.setItem('loggedIn', 'true');
+                const returnUrl = localStorage.getItem('returnUrl') || 'index.html';
+                localStorage.removeItem('returnUrl');
+                window.location.href = returnUrl;
+            } else {
+                alert('Invalid username or password.');
+            }
+        });
+
+        // Redirect if already logged in
+        redirectIfLoggedIn();
+    }
+
+    if (logoutButton) {
+        logoutButton.addEventListener('click', () => {
+            logout();
+        });
+    }
+
+    protectPage();
+});
+
+function protectPage() {
+    if (localStorage.getItem('loggedIn') !== 'true') {
+        localStorage.setItem('returnUrl', window.location.href);
+        window.location.href = 'login.html';
+    } else {
+        document.getElementById('main-content').classList.remove('blur');
+    }
+    updateLoginStatus();
+}
+
+function redirectIfLoggedIn() {
+    if (localStorage.getItem('loggedIn') === 'true') {
+        const returnUrl = localStorage.getItem('returnUrl') || 'index.html';
+        localStorage.removeItem('returnUrl');
+        updateLoginStatus();
+        window.location.href = returnUrl;
+    }
+}
+
+function updateLoginStatus() {
+    const loginStatus = document.getElementById('login-status');
+    if (loginStatus && localStorage.getItem('loggedIn') === 'true') {
+        loginStatus.innerHTML = 'Logged in as Cim Representative';
+    } else {
+        loginStatus.innerHTML = '';
+    }
+}
+
+function logout() {
+    localStorage.removeItem('loggedIn');
+    updateLoginStatus();
+    protectPage();
+}
