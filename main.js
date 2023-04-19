@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Replace the following object with your actual user data
             const validUsers = {
-                '3rmY@kLS#H0e6': 'iNH84K5MUA&%P',
+                'admin': 'password123',
             };
 
             if (validUsers[username] && validUsers[username] === password) {
@@ -38,10 +38,12 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function protectPage() {
-    if (localStorage.getItem('loggedIn') !== 'true') {
+    const isLoginPage = window.location.href.includes('login.html');
+
+    if (!isLoginPage && localStorage.getItem('loggedIn') !== 'true') {
         localStorage.setItem('returnUrl', window.location.href);
         window.location.href = 'login.html';
-    } else {
+    } else if (!isLoginPage) {
         document.getElementById('main-content').classList.remove('blur');
     }
     updateLoginStatus();
